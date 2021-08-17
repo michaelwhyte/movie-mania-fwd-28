@@ -9,7 +9,6 @@ function SingleMovie({ movieObj }) {
         <div className="single-movie">
             <div className="single-movie-backdrop"
             style={{
-                color: 'red',
                 backgroundImage: movieObj.backdrop_path && `url(https://image.tmdb.org/t/p/original/${movieObj.backdrop_path})`
             }}></div>
             <div className="single-movie-content">

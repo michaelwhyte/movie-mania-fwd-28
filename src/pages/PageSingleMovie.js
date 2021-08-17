@@ -8,10 +8,6 @@ function PageSingleMovie() {
     const [movieData, setMovieData] = useState(null);
 
     const { id } = useParams();
-
-    console.log(id);
-
-    // https://api.themoviedb.org/3/movie/12345?api_key=<<api_key>>&language=en-US
     
     useEffect(() => {
 
