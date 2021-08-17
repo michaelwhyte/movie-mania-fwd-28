@@ -1,6 +1,6 @@
 function PageSingleMovie() {
     return (
-        <section className="home-page">
+        <section className="single-movie-page">
             ...this is the single movie page...
         </section>
     )
