@@ -1,3 +1,3 @@
 // Global Variables
-export const API_KEY = '467ae5ff4a2ad2a532b819a080fb0e52';
-export const API_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NjdhZTVmZjRhMmFkMmE1MzJiODE5YTA4MGZiMGU1MiIsInN1YiI6IjVkZDQ0MDZjMjYzNDYyMDAxMmI2MTg4YSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EWiHqCznyW1scdahCqeDYIW0OvC25DgJab8GXnNOZTU';
+export const API_KEY = 'Add your API Key here...';
+export const API_TOKEN = 'Add your API Read Access Token (v4 auth) here...';
