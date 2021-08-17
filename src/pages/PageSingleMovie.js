@@ -27,7 +27,6 @@ function PageSingleMovie() {
 
         fetchMovie();
 
-
     }, []);
 
     return (

@@ -18,10 +18,10 @@ function PageHome({ sort }) {
                     'Authorization': 'Bearer ' + API_TOKEN
                 }
             });
+
             let rawMovieData = await res.json();
             rawMovieData = rawMovieData.results.splice(0, 12);
             setMovieData(rawMovieData);
-            //console.log(rawMovieData);
 
         }
 

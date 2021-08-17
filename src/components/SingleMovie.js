@@ -1,9 +1,6 @@
-import poster from '../images/godzilla-vs-kong-demo-poster.jpg';
 import noPoster from '../images/no-movie-poster.jpg';
 
 function SingleMovie({ movieObj }) {
-
-    // https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg
 
     return (
         <div className="single-movie">
