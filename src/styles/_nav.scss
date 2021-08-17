@@ -34,7 +34,7 @@ nav {
     li {
         background-color: $featureColor;
     }
-    @include mq(em($tablet)){
+    @include mq($tablet){
         a {
             padding: 0 em(20);
         }

@@ -8,7 +8,7 @@ header {
     a {
         text-decoration: none;
     }
-    @include mq(em($tablet)){
+    @include mq($tablet){
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -19,7 +19,7 @@ header {
             text-align: left;
         }
     }
-    @include mq(em($desktopWide)){
+    @include mq($desktopWide){
         margin: em(20);
         padding-top: 0;
         h1 {

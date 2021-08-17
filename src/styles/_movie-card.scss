@@ -12,7 +12,7 @@
         border-radius: em(4);
     }
 
-    @include mq(em($tablet)){
+    @include mq($tablet){
         margin-bottom: 0;
     }
 
