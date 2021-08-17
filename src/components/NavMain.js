@@ -2,10 +2,10 @@ import { NavLink } from 'react-router-dom';
 
 function NavMain() {
     return (
-        <nav>
+        <nav className="nav-main">
             <ul>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/" exact>Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/about">About</NavLink>
